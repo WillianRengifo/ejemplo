@@ -1,0 +1,83 @@
+/*
+@media(width: 700px){
+    div{
+        color: red;
+    }
+}
+
+@media(min-width: 35rem){
+    div{
+        background: yellow;
+    }
+}
+
+@media(max-width: 50rem){
+    div{
+        border: 2xp solid blue;
+    }
+}*/
+
+@media (min-width: 35rem) {
+  #contenedor {
+    background: yellow;
+  }
+}
+@media (max-width: 50rem) {
+  #contenedor {
+    border: 2px solid blue;
+  }
+}
+/*
+@media (width: 100%) {
+  #img {
+      border: 2px solid rgb(75, 206, 108);
+  }
+  }
+  @media (min-width: 35rem) {
+      #img {
+        background: yellow;
+      }
+    }
+    @media (max-width: 100%) {
+      #img {
+        border: 2px solid rgb(32, 37, 7);
+      }
+      }*/
+      @media(heigth:100%) and (width=100%){
+        #img {
+          background: yellow;
+        }
+      }
+#menu {
+  width: 150px;
+  background: blueviolet;
+}
+#contenido{
+  width: 800px;
+  background-color: burlywood;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
